@@ -1,0 +1,8 @@
+<div *ngIf="dataLoaded">
+    <div class="row" *ngFor="let customer of customers">
+        <div class="col">
+            {{customer.firstName}}
+        </div>
+        <div class="col">{{ customer.lastName }}</div>
+    </div>
+</div>
